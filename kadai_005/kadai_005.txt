@@ -1,0 +1,26 @@
+mkdir git_challenge
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents
+$ cd git_challenge
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/pmxrguest/Documents/git_challenge/.git/
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git add hello_world.txt
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git commit -m "Hello,world!を記入"
+[main (root-commit) 2aa60b0] Hello,world!を記入
+ 1 file changed, 1 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+git add hello_world.txt
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main 2cc9348] 日本語訳を追加
+ 1 file changed, 1 insertions(+)
+$ git log --oneline
+2cc9348 (HEAD -> main) 日本語訳を追加
+2aa60b0 Hello,world!を記入
