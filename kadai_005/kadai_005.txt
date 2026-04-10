@@ -1,0 +1,40 @@
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents
+$ mkdir git_challenge
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents (main)
+$ cd git_challenge
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge
+$ git init
+Initialized empty Git repository in C:/Users/pmxrguest/Documents/git_challenge/.git/
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ echo "Hello,world!" >> hello_world.txt
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git add hello_world.txt
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git commit -m "hello_world.txtを追加"
+[main (root-commit) 8c1cf8e] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git add hello_world.txt
+
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git commit -m "日本語訳を追加"
+[main 86e422d] 日本語訳を追加
+ 1 file changed, 1 insertion(+)
+
+pmxrguest@PmxrGuest3 MINGW64 ~/Documents/git_challenge (main)
+$ git log --oneline
+86e422d (HEAD -> main) 日本語訳を追加
+8c1cf8e hello_world.txtを追加
+
+
+
+
+
